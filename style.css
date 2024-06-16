@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Fancy gradient background */
+    color: #ffffff; /* White text color for better visibility */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for contrast */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Stronger shadow for more depth */
+    border-radius: 12px;
+    width: 300px; /* Fixed width */
+}
+
+h1 {
+    margin: 0 0 30px; /* Increased bottom margin */
+    font-size: 28px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    color: #333; /* Dark text color for the title */
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #ff5722; /* Bright orange button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #e64a19; /* Darker shade of orange on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Smaller title font size for small screens */
+    }
+
+    button {
+        font-size: 16px; /* Slightly smaller button text */
+    }
+}
